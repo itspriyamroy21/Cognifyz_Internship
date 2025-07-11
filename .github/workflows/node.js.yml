@@ -9,7 +9,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     strategy:
       matrix:
         node-version: [18.x]
@@ -22,12 +21,17 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
 
-    - name: Install, test, coverage
-      run: |
-        cd task1-basic-server
-        npm install
-        npm test
-        npm run coverage
+    - name: Install dependencies
+      run: npm install
+      working-directory: task1-basic-server
+
+    - name: Run tests
+      run: npm test
+      working-directory: task1-basic-server
+
+    - name: Generate coverage
+      run: npm run coverage
+      working-directory: task1-basic-server
 
     - name: Upload coverage to Codecov
       uses: codecov/codecov-action@v5
