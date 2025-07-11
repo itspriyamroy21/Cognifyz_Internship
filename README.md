@@ -3,6 +3,8 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/itspriyamroy21/Cognifyz_Internship?color=brightgreen)
 ![GitHub license](https://img.shields.io/github/license/itspriyamroy21/Cognifyz_Internship?color=blue)
 ![GitHub last commit](https://img.shields.io/github/last-commit/itspriyamroy21/Cognifyz_Internship?color=blue)
+![Tests](https://img.shields.io/badge/tests-passing-brightgreen)
+![Coverage](https://img.shields.io/badge/coverage-87.5%25-yellowgreen)
 
 This repository contains all my internship tasks for **Cognifyz Technologies** as a Full Stack Development Intern.
 
