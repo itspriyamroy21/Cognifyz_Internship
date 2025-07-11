@@ -24,15 +24,15 @@ jobs:
 
     - name: Install dependencies
       run: npm install
-      working-directory: ${{ github.workspace }}/task1-basic-server
+      working-directory: task1-basic-server
 
     - name: Run tests
       run: npm test
-      working-directory: ${{ github.workspace }}/task1-basic-server
+      working-directory: task1-basic-server
 
     - name: Generate coverage
       run: npm run coverage
-      working-directory: ${{ github.workspace }}/task1-basic-server
+      working-directory: task1-basic-server
 
     - name: Upload coverage to Codecov
       uses: codecov/codecov-action@v5
