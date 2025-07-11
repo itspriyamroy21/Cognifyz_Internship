@@ -5,6 +5,8 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/itspriyamroy21/Cognifyz_Internship?color=blue)
 ![Tests](https://img.shields.io/badge/tests-passing-brightgreen)
 ![Coverage](https://img.shields.io/badge/coverage-87.5%25-yellowgreen)
+[![CI](https://github.com/itspriyamroy21/Cognifyz_Internship/actions/workflows/node.js.yml/badge.svg)](https://github.com/itspriyamroy21/Cognifyz_Internship/actions)
+[![codecov](https://codecov.io/gh/itspriyamroy21/Cognifyz_Internship/branch/main/graph/badge.svg)](https://codecov.io/gh/itspriyamroy21/Cognifyz_Internship)
 
 This repository contains all my internship tasks for **Cognifyz Technologies** as a Full Stack Development Intern.
 
