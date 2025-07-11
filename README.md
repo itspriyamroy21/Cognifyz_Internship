@@ -42,5 +42,3 @@ B.Tech CSE Student
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
-
-  # add a space
