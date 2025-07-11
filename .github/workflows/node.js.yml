@@ -16,6 +16,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+      with:
+        path: repo
 
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
@@ -24,15 +26,15 @@ jobs:
 
     - name: Install dependencies
       run: npm install
-      working-directory: task1-basic-server
+      working-directory: repo/task1-basic-server
 
     - name: Run tests
       run: npm test
-      working-directory: task1-basic-server
+      working-directory: repo/task1-basic-server
 
     - name: Generate coverage
       run: npm run coverage
-      working-directory: task1-basic-server
+      working-directory: repo/task1-basic-server
 
     - name: Upload coverage to Codecov
       uses: codecov/codecov-action@v5
