@@ -10,11 +10,13 @@
 
 This repository contains all my internship tasks for **Cognifyz Technologies** as a Full Stack Development Intern.
 
+---
+
 ## 📂 Tasks
 
 - ✅ **Task 1**: Basic Node.js server, EJS contact form with dark/light mode toggle  
 - ✅ **Task 2**: Validated contact form with Node.js, tests, coverage & glassmorphism UI  
-- ⏳ Task 3: *coming soon*
+- ✅ **Task 3**: Responsive design & advanced CSS (glassmorphism, animations, dark mode)  
 - ⏳ Task 4: *coming soon*
 - ⏳ Task 5: *coming soon*
 - ⏳ Task 6: *coming soon*
@@ -33,7 +35,7 @@ This repository contains all my internship tasks for **Cognifyz Technologies** a
 - Bootstrap 5
 - Mocha, Chai, Supertest, NYC
 - Vanilla JavaScript
-- CSS (Glassmorphism, gradients)
+- CSS (Glassmorphism, gradients, animations)
 
 ---
 
