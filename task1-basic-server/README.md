@@ -1,26 +1,44 @@
-# 🌟 Task 1 - HTML Structure and Basic Server Interaction
+# 🚀 Cognifyz Internship
 
-![Node.js](https://img.shields.io/badge/Node.js-18.x-green)
-![Express](https://img.shields.io/badge/Express.js-^4.18-lightgrey)
-![EJS](https://img.shields.io/badge/EJS-template-orange)
+![GitHub repo size](https://img.shields.io/github/repo-size/itspriyamroy21/Cognifyz_Internship?color=brightgreen)
+![GitHub license](https://img.shields.io/github/license/itspriyamroy21/Cognifyz_Internship?color=blue)
+![GitHub last commit](https://img.shields.io/github/last-commit/itspriyamroy21/Cognifyz_Internship?color=blue)
+![Tests](https://img.shields.io/badge/tests-passing-brightgreen)
+![Coverage](https://img.shields.io/badge/coverage-87.5%25-yellowgreen)
+[![CI](https://github.com/itspriyamroy21/Cognifyz_Internship/actions/workflows/node.js.yml/badge.svg)](https://github.com/itspriyamroy21/Cognifyz_Internship/actions)
+[![codecov](https://codecov.io/gh/itspriyamroy21/Cognifyz_Internship/branch/main/graph/badge.svg)](https://codecov.io/gh/itspriyamroy21/Cognifyz_Internship)
 
-Task 1 for **Cognifyz Internship**:  
-Build a simple Node.js + Express server, create an HTML form using EJS, handle form submission, and render a dynamic thank-you page.
+This repository contains all my internship tasks for **Cognifyz Technologies** as a Full Stack Development Intern.
+
+## 📂 Tasks
+
+- ✅ **Task 1**: Basic Node.js server, EJS contact form with dark/light mode toggle  
+- ⏳ Task 2: *coming soon*  
+- ⏳ Task 3: *coming soon*
+
+> Each task has its own folder with code and README.
 
 ---
 
-## ✏️ **Features**
+## 📦 Technologies
 
-- Node.js + Express backend
-- HTML form built with EJS template
-- Handles POST form submission
-- Dynamic thank-you page with user input
+- Node.js
+- Express.js
+- EJS
+- Bootstrap 5
+- Vanilla JavaScript
+- CSS (Glassmorphism, gradients)
 
 ---
 
-## 🚀 **How to run locally**
+## ✨ Author
 
-```bash
-cd task1-basic-server
-npm install
-npm run dev
+**Priyam Roy**  
+B.Tech CSE Student  
+[GitHub](https://github.com/itspriyamroy21) | [LinkedIn](https://linkedin.com/in/priyamroy21)
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
