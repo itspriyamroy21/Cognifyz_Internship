@@ -17,7 +17,7 @@ This repository contains all my internship tasks for **Cognifyz Technologies** a
 - ✅ **Task 1**: Basic Node.js server, EJS contact form with dark/light mode toggle  
 - ✅ **Task 2**: Validated contact form with Node.js, tests, coverage & glassmorphism UI  
 - ✅ **Task 3**: Responsive design & advanced CSS (glassmorphism, animations, dark mode)  
-- ⏳ Task 4: *coming soon*
+- ✅ **Task 4**: DOM-based signup form validation (username, email, phone, password matching, gender); dark/light mode; success page  
 - ⏳ Task 5: *coming soon*
 - ⏳ Task 6: *coming soon*
 - ⏳ Task 7: *coming soon*
