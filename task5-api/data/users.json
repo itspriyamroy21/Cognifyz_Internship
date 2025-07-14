@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "username": "Priyam Roy",
+    "email": "itspriyam.roy21@gmail.com",
+    "gender": "Male",
+    "phone": "9641529379"
+  },
+  {
+    "id": 2,
+    "username": "Priyam",
+    "email": "itspriyam.roy21@gmail.com",
+    "gender": "Male",
+    "phone": "1231231231"
+  },
+  {
+    "id": 3,
+    "username": "Deepshikha",
+    "email": "deep@gmail.com",
+    "gender": "Female",
+    "phone": "1234567890"
+  },
+  {
+    "id": 4,
+    "username": "deepshikha",
+    "email": "deep@gmail.com",
+    "gender": "Female",
+    "phone": "9641529379"
+  }
+]
