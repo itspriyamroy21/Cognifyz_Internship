@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task 5 - Signup Form</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+<div class="toggle-container">
+  <label class="switch">
+    <input type="checkbox" id="darkModeSwitch" onclick="toggleDarkMode()">
+    <span class="slider"></span>
+  </label>
+  <span class="toggle-label" id="toggleLabel">Dark Mode</span>
+</div>
+<div class="shape shape1"></div>
+<div class="shape shape2"></div>
+<div class="container">
+  <div class="glass-card p-4 fade-in">
+    <h2 class="mb-4 text-center">Sign Up</h2>
+    <form id="signupForm" novalidate>
+      <div class="mb-3">
+        <label class="form-label">Username</label>
+        <input type="text" name="username" class="form-control" required>
+        <span class="error-message text-danger small"></span>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Email</label>
+        <input type="email" name="email" class="form-control" required>
+        <span class="error-message text-danger small"></span>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Password</label>
+        <div class="input-group">
+          <input type="password" name="password" class="form-control" required>
+          <span class="input-group-text password-toggle"><i class="bi bi-eye"></i></span>
+        </div>
+        <span class="error-message text-danger small"></span>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Confirm Password</label>
+        <div class="input-group">
+          <input type="password" name="confirmPassword" class="form-control" required>
+          <span class="input-group-text password-toggle"><i class="bi bi-eye"></i></span>
+        </div>
+        <span class="error-message text-danger small"></span>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Gender</label>
+        <select name="gender" class="form-select" required>
+          <option value="">Select</option>
+          <option>Male</option>
+          <option>Female</option>
+          <option>Other</option>
+        </select>
+        <span class="error-message text-danger small"></span>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Phone Number</label>
+        <input type="text" name="phone" class="form-control" required>
+        <span class="error-message text-danger small"></span>
+      </div>
+      <button type="submit" class="btn btn-primary w-100">Sign Up</button>
+    </form>
+  </div>
+</div>
+
+<script>
+function toggleDarkMode(){
+  const body = document.body;
+  const label = document.getElementById('toggleLabel');
+  const isDark = body.classList.toggle('dark-mode');
+  localStorage.setItem('darkMode', isDark ? 'enabled' : 'disabled');
+  label.textContent = isDark ? 'Light Mode' : 'Dark Mode';
+}
+window.addEventListener('DOMContentLoaded', () => {
+  const darkMode = localStorage.getItem('darkMode');
+  const body = document.body;
+  const label = document.getElementById('toggleLabel');
+  const toggle = document.getElementById('darkModeSwitch');
+  if(darkMode === 'enabled'){
+    body.classList.add('dark-mode');
+    label.textContent = 'Light Mode';
+    toggle.checked = true;
+  }
+});
+</script>
+<script src="/js/validation.js"></script>
+</body>
+</html>

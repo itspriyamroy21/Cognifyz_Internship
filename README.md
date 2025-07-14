@@ -19,13 +19,14 @@ This repository contains all my internship tasks for **Cognifyz Technologies** a
 ![Task 3](https://img.shields.io/badge/Task%203-Responsive%20UI-orange)
 ![Task 4](https://img.shields.io/badge/Task%204-DOM%20Signup-yellow)
 ![Task 5](https://img.shields.io/badge/Task%205-REST%20API%20CRUD-success)
+![Task 6](https://img.shields.io/badge/Task%206-Auth%20%26%20MongoDB-9cf)
 
 - ✅ **Task 1**: Basic Node.js server, EJS contact form with dark/light mode toggle  
 - ✅ **Task 2**: Validated contact form with Node.js, tests, coverage & glassmorphism UI  
 - ✅ **Task 3**: Responsive design & advanced CSS (glassmorphism, animations, dark mode)  
 - ✅ **Task 4**: DOM-based signup form validation (username, email, phone, password matching, gender); dark/light mode; success page  
 - ✅ **Task 5**: REST API with full CRUD (Create, Read, Update, Delete); JSON storage; tested with Postman; frontend signup form integration  
-- ⏳ Task 6: *coming soon*  
+- ✅ **Task 6**: Integrated MongoDB (Atlas) using Mongoose; replaced JSON storage; REST API now fully database-driven; frontend signup form directly saves to MongoDB  
 - ⏳ Task 7: *coming soon*  
 - ⏳ Task 8: *coming soon*
 
@@ -38,11 +39,12 @@ This repository contains all my internship tasks for **Cognifyz Technologies** a
 - Node.js
 - Express.js
 - EJS
+- MongoDB Atlas + Mongoose
 - Bootstrap 5
 - Mocha, Chai, Supertest, NYC
 - Vanilla JavaScript (DOM)
 - CSS (Glassmorphism, gradients, animations)
-- REST API, JSON file storage
+- REST API, JSON & MongoDB storage
 - Postman for API testing
 
 ---
